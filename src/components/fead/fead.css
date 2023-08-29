@@ -1,0 +1,35 @@
+.fead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fead_card{
+    max-width: 300px;
+    max-height: 300px;
+    padding: 2rem 1rem;
+   
+}
+.fead_card p{
+    font-size: 10px;
+    color: gray;
+    padding: 1rem;
+}
+.swiper{
+    padding: 3rem !important;
+}
+.fead_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.fead_profile img{
+    max-width: 50px;
+}
+.fead_profile p {
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}

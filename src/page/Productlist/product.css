@@ -1,0 +1,144 @@
+.product_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 2rem;
+
+}
+.product_expersion{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 60vw;
+    height: 50vh;
+    padding: 2rem;
+    color: white;
+    background: url("https://s3.eu-west-3.amazonaws.com/rocketfy3/en-digital-marketing-es-marketing-digital-5e9868c7b4d85.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.expersion_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.expersion_left h5{
+    font-size: 30px;
+    padding: 1rem;
+    color: white;
+}
+.expersion_left a {
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 1rem;
+    border-radius: 99px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.expersion_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 56, 56, 0.15);
+    backdrop-filter:blur(10px);
+    width: 60%;
+    text-transform: capitalize;
+}
+.expersion_right p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+    font-size: 20px;
+}
+.product_price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+.pirce_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+}
+.pirce_title span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+.pirce_title span svg{
+    color: orangered;
+    font-size: 30px;
+}
+.pirce_title h5{
+    font-size: 30px;
+    padding: 1rem;
+}
+.pirce_title h5 span{
+    color: orangered    ;
+}
+.price_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 3rem;
+    padding: 2rem;
+    width: 80vw;
+}
+.price_details{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start; 
+   flex-direction: column;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+   padding: 2rem;
+   text-transform: capitalize;
+   border-radius: 5px ;
+   transition: 0.5s ease-in-out;
+
+}
+.price_details h5{
+    font-size: 30px;
+}
+.price_details span{
+    color: gray;
+    padding: 1rem 0;
+}
+.price_details h2{
+    font-size: 40px;
+    padding: 1rem 0;
+}
+.price_details p {
+     padding: 1rem 0 ;
+}
+.price_details ul {
+    padding: 1rem;
+}
+.price_details a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 99px;
+    color: black;
+    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.price_details:hover{
+   transform: scale(1.05);
+}
+.price_details:hover a {
+    background-color: orangered;
+    color: white;
+    border: none;
+}

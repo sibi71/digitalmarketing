@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,6 +12,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+::-webkit-scrollbar{
+  width: 6px;
+  }
+  ::-webkit-scrollbar-track{
+  background:whitesmoke;
+  cursor: pointer;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    height: 5px;
+    background: orangered;
+  }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

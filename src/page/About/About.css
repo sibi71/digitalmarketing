@@ -1,0 +1,79 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    
+}
+.about_title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: capitalize;
+}
+.about_title svg{
+    color: orangered;
+    font-size: 30px;
+}
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 3rem;
+    text-transform: capitalize;
+    width: 80%;
+
+
+}
+.about_left{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    
+}
+.about_left h5{
+    font-size: 30px;
+}
+.about_left img{
+    max-width: 450px;
+}
+.about_right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.about_right p {
+    color: gray;  
+      
+}
+.about_right h5{
+    font-size: 25px;
+}
+.about_right span{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: gray;
+    font-weight: 700;
+}
+.about_right span svg {
+    
+    color: orangered;
+    font-size: 30px;
+
+}
+.about_right a {
+    display: flex;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    color: white;
+    background-color: orangered;
+    width: fit-content;
+    border-radius: 99px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
